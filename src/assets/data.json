@@ -1,0 +1,38 @@
+[
+  {
+    "phase": "aller",
+    "numero": 3,
+    "domicile": "ESCOUBLACAISE",
+    "visiteur": "NANTES SULLY BASKET - 2",
+    "date": "02/02/2020",
+    "heure": "19:00",
+    "adresse": "COMPLEXE SPORTS ALAIN BURBAN Avenue du Bois Robin 44500 - La Baule-Escoublac"
+  },
+  {
+    "phase": "aller",
+    "numero": 5,
+    "domicile": "ESCOUBLACAISE",
+    "visiteur": "NANTES SULLY BASKET - 2",
+    "date": "08/02/2020",
+    "heure": "19:00",
+    "adresse": "COMPLEXE SPORTS ALAIN BURBAN Avenue du Bois Robin 44500 - La Baule-Escoublac"
+  },
+  {
+    "phase": "retour",
+    "numero": 6,
+    "domicile": "AS LA MADELEINE GUERANDE",
+    "visiteur": "NANTES SULLY BASKET - 2",
+    "date": "08/03/2020",
+    "heure": "13:15",
+    "adresse": "SALLE OMNISPORT DE LA MADELEINE Rue Pierre de Coubertin 44410 - Saint-Lyphard"
+  },
+  {
+    "phase": "retour",
+    "numero": 7,
+    "domicile": "NANTES SULLY BASKET - 2",
+    "visiteur": "NORT SUR ERDRE AC LES TOUCHES BASKET - 3",
+    "date": "15/03/2020",
+    "heure": "14:00",
+    "adresse": "GYMNASE SULLY Rue Henri Cochard 44000 - Nantes"
+  }
+]
