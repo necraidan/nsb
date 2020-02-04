@@ -16,7 +16,8 @@ export class AppComponent {
   constructor(private http: HttpClient) {
     this.http.get("./assets/data.json").subscribe((val: Match[]) => {
       console.log(this.selectNextMatch(val));
-      this.matches$.next(this.selectNextMatch(val));
+
+      this.matches$.next(this.selectNextMatch(this.parseDate(val)));
     });
   }
 
@@ -24,10 +25,24 @@ export class AppComponent {
     let alreadySelected = false;
 
     return matches.map((m: Match) => {
-      if (!alreadySelected && new Date(m.date) <= new Date()) {
+      if (!alreadySelected && m.date <= new Date()) {
         m.selected = true;
         alreadySelected = true;
       }
+
+      return m;
+    });
+  }
+
+  private parseDate(matches: Match[]) {
+    return matches.map((m: Match) => {
+      let parseDate = (m.date as string).split("/");
+
+      m.date = new Date(
+        parseInt(parseDate[2], 10),
+        parseInt(parseDate[1], 10) - 1,
+        parseInt(parseDate[0], 10)
+      );
 
       return m;
     });

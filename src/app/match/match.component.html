@@ -1,4 +1,4 @@
-<h1>{{ match.date }} à {{ match.heure }}</h1>
+<h1>{{ match.date | date: "d MMMM yyyy" }} à {{ match.heure }}</h1>
 <h2>{{ match.domicile }} VS {{ match.visiteur }}</h2>
 <h4>match n°{{ match.numero }} de la phase {{ match.phase }}</h4>
 <h3>
