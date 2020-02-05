@@ -25,7 +25,7 @@ export class AppComponent {
     let alreadySelected = false;
 
     return matches.map((m: Match) => {
-      if (!alreadySelected && m.date <= new Date()) {
+      if (!alreadySelected && m.date >= new Date()) {
         m.selected = true;
         alreadySelected = true;
       }

@@ -1,5 +1,6 @@
-app-root {
-  // match.selected {
-  //   display: block;
-  // }
+:host {
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  height: 100vh;
 }
