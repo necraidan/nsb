@@ -1,7 +1,7 @@
 export interface Match {
   phase: string;
   numero: number;
-  domcilie: string;
+  domicile: string;
   visiteur: string;
   heure: string;
   date: string | Date;

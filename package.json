@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --prod --build-optimizer --base-href /funkoPoop/",
+    "build": "ng build --prod --build-optimizer --base-href /nsb/",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
