@@ -34,7 +34,7 @@
     "numero": 9,
     "domicile": {
       "name": "EN - CTC LAC ET TENU BASKET - ST MAXIME ST MEME LE TENU",
-      "id": "nsb"
+      "id": "tenu"
     },
     "visiteur": {
       "name": "NANTES SULLY BASKET - 2",
@@ -53,7 +53,7 @@
     },
     "visiteur": {
       "name": "ESCOUBLACAISE",
-      "id": "nsb"
+      "id": "escoublacaise"
     },
     "date": "03/05/2020",
     "heure": "14:00",
