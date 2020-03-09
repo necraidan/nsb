@@ -23,9 +23,11 @@ export class AppComponent {
 
   private selectNextMatch(matches: Match[]) {
     let alreadySelected = false;
+    const yesterday = new Date();
+    yesterday.setDate(yesterday.getDate() - 1);
 
     return matches.map((m: Match) => {
-      if (!alreadySelected && m.date >= new Date()) {
+      if (!alreadySelected && m.date >= yesterday) {
         m.selected = true;
         alreadySelected = true;
       }

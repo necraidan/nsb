@@ -1,27 +1,15 @@
 [
   {
-    "phase": "aller",
-    "numero": 5,
-    "domicile": "ESCOUBLACAISE",
-    "visiteur": "NANTES SULLY BASKET - 2",
-    "date": "08/02/2020",
-    "heure": "19:00",
-    "adresse": "COMPLEXE SPORTS ALAIN BURBAN Avenue du Bois Robin 44500 - La Baule-Escoublac"
-  },
-  {
-    "phase": "retour",
-    "numero": 6,
-    "domicile": "AS LA MADELEINE GUERANDE",
-    "visiteur": "NANTES SULLY BASKET - 2",
-    "date": "08/03/2020",
-    "heure": "13:15",
-    "adresse": "SALLE OMNISPORT DE LA MADELEINE Rue Pierre de Coubertin 44410 - Saint-Lyphard"
-  },
-  {
     "phase": "retour",
     "numero": 7,
-    "domicile": "NANTES SULLY BASKET - 2",
-    "visiteur": "NORT SUR ERDRE AC LES TOUCHES BASKET - 3",
+    "domicile": {
+      "name": "NANTES SULLY BASKET - 2",
+      "id": "nsb"
+    },
+    "visiteur": {
+      "name": "NORT SUR ERDRE AC LES TOUCHES BASKET - 3",
+      "id": "naclt"
+    },
     "date": "15/03/2020",
     "heure": "14:00",
     "adresse": "GYMNASE SULLY Rue Henri Cochard 44000 - Nantes"
@@ -29,8 +17,14 @@
   {
     "phase": "retour",
     "numero": 8,
-    "domicile": "NANTES SULLY BASKET - 2",
-    "visiteur": "HERBADILLA LA CHEVROLIERE - 2",
+    "domicile": {
+      "name": "NANTES SULLY BASKET - 2",
+      "id": "nsb"
+    },
+    "visiteur": {
+      "name": "HERBADILLA LA CHEVROLIERE - 2",
+      "id": "chevroliere"
+    },
     "date": "29/03/2020",
     "heure": "16:00",
     "adresse": "GYMNASE SULLY Rue Henri Cochard 44000 - Nantes"
@@ -38,17 +32,29 @@
   {
     "phase": "retour",
     "numero": 9,
-    "domicile": "EN - CTC LAC ET TENU BASKET - ST MAXIME ST MEME LE TENU",
-    "visiteur": "NANTES SULLY BASKET - 2",
+    "domicile": {
+      "name": "EN - CTC LAC ET TENU BASKET - ST MAXIME ST MEME LE TENU",
+      "id": "nsb"
+    },
+    "visiteur": {
+      "name": "NANTES SULLY BASKET - 2",
+      "id": "nsb"
+    },
     "date": "05/04/2020",
     "heure": "15:30",
     "adresse": "SALLE POLYVALENTE OMNISPORTS Place de la Mairie 44270 - Saint-Même-le-Tenu"
   },
   {
     "phase": "retour",
-    "numero": 9,
-    "domicile": "NANTES SULLY BASKET - 2",
-    "visiteur": "ESCOUBLACAISE",
+    "numero": 10,
+    "domicile": {
+      "name": "NANTES SULLY BASKET - 2",
+      "id": "nsb"
+    },
+    "visiteur": {
+      "name": "ESCOUBLACAISE",
+      "id": "nsb"
+    },
     "date": "03/05/2020",
     "heure": "14:00",
     "adresse": "GYMNASE SULLY Rue Henri Cochard 44000 - Nantes"
