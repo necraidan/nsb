@@ -10,4 +10,8 @@ body {
   background-image: url("assets/background.jfif");
   background-size: auto;
   background-position: center;
+
+  @media screen and (max-width: 920px) {
+    background-size: cover;
+  }
 }
