@@ -1,18 +1,18 @@
 [
   {
-    "phase": "retour",
-    "numero": 7,
+    "phase": "aller",
+    "numero": 1,
     "domicile": {
-      "name": "NANTES SULLY BASKET - 2",
-      "id": "nsb"
+      "name": "GROUPE ST VINCENT LE PALLET - 3",
+      "id": "lepallet"
     },
     "visiteur": {
-      "name": "NORT SUR ERDRE AC LES TOUCHES BASKET - 3",
-      "id": "naclt"
+      "name": "NANTES SULLY BASKET - 3",
+      "id": "nsb"
     },
-    "date": "15/03/2020",
-    "heure": "14:00",
-    "adresse": "GYMNASE SULLY Rue Henri Cochard 44000 - Nantes"
+    "date": "27/09/2020",
+    "heure": "17:45",
+    "adresse": "SALLE POLYVALENTE Rue des Sports 44330 - Le Pallet"
   },
   {
     "phase": "retour",
