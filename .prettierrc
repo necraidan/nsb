@@ -1,0 +1,15 @@
+{
+    "tabWidth": 2,
+    "useTabs": false,
+    "singleQuote": true,
+    "printWidth": 160,
+    "trailingComma": "none",
+    "overrides": [
+        {
+            "files": ["*.css", "*.scss"],
+            "options": {
+                "tabWidth": 2
+            }
+        }
+    ]
+}

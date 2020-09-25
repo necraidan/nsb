@@ -5,10 +5,8 @@
 </div>
 <div class="middle">
   <div class="middle__hour">{{ match.heure }}</div>
-  <div class="middle__date">{{ match.date | date: "EEEE d MMMM yyyy" }}</div>
-  <div class="middle__info-match">
-    match n°{{ match.numero }} de la phase {{ match.phase }}
-  </div>
+  <div class="middle__date">{{ match.date | date: 'EEEE d MMMM yyyy' }}</div>
+  <div class="middle__info-match">match n°{{ match.numero }} de la phase {{ match.phase }}</div>
 </div>
 <div class="visiteur">
   <img [src]="'assets/teams/' + match.visiteur.id + '.png'" alt="" />

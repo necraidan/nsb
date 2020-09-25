@@ -1,7 +1,3 @@
-<match
-  *ngFor="let match of matches$ | async"
-  [match]="match"
-  [class.selected]="match.selected"
-></match>
+<match *ngFor="let match of matches$ | async" [match]="match" [class.selected]="match.selected"></match>
 <!--
 <match *ngFor="let match of matches$ | async" [match]="match"></match> -->
