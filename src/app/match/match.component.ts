@@ -8,6 +8,4 @@ import { Match } from '../app.model';
 })
 export class MatchComponent {
   @Input() match: Match;
-
-  constructor() {}
 }
