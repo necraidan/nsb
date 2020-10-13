@@ -1,0 +1,120 @@
+{
+  "configVersion": 1,
+  "timestamp": 1602592755995,
+  "index": "/nsb/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/nsb/favicon.ico",
+        "/nsb/index.html",
+        "/nsb/main-es2015.b8fa479daf916086d66f.js",
+        "/nsb/main-es5.b8fa479daf916086d66f.js",
+        "/nsb/manifest.webmanifest",
+        "/nsb/polyfills-es2015.91a91cc5efeb54efc3e5.js",
+        "/nsb/polyfills-es5.1e88a8727d91064df0b1.js",
+        "/nsb/runtime-es2015.f2623b59c8ca93d994c9.js",
+        "/nsb/runtime-es5.f2623b59c8ca93d994c9.js",
+        "/nsb/styles.34a62b43f8cd20dde039.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/nsb/assets/background.jpg",
+        "/nsb/assets/data.json",
+        "/nsb/assets/icons/apple-touch-icon.png",
+        "/nsb/assets/icons/icon-128x128.png",
+        "/nsb/assets/icons/icon-144x144.png",
+        "/nsb/assets/icons/icon-152x152.png",
+        "/nsb/assets/icons/icon-16x16.png",
+        "/nsb/assets/icons/icon-192x192.png",
+        "/nsb/assets/icons/icon-32x32.png",
+        "/nsb/assets/icons/icon-512x512.png",
+        "/nsb/assets/icons/icon-57x57.png",
+        "/nsb/assets/icons/icon-72x72.png",
+        "/nsb/assets/icons/icon-96x96.png",
+        "/nsb/assets/icons/mstile-150x150.png",
+        "/nsb/assets/teams/chevroliere.png",
+        "/nsb/assets/teams/escoublacaise.png",
+        "/nsb/assets/teams/ibc.png",
+        "/nsb/assets/teams/lepallet.png",
+        "/nsb/assets/teams/logne.png",
+        "/nsb/assets/teams/naclt.png",
+        "/nsb/assets/teams/nbh.png",
+        "/nsb/assets/teams/nsb.png",
+        "/nsb/assets/teams/reze.png",
+        "/nsb/assets/teams/tenu.png",
+        "/nsb/background.0120269b329bb64ffdce.jpg"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/nsb/assets/background.jpg": "77e11295135e0fc74cac622fbf12543d77f1af89",
+    "/nsb/assets/data.json": "701d64706425e69639e992dcddc5d9787fb06528",
+    "/nsb/assets/icons/apple-touch-icon.png": "4e998d5f151d790b7548463cd4e6f5d35e4726fe",
+    "/nsb/assets/icons/icon-128x128.png": "4f7ffa2e52da5c8ef0e54617ecae921520851c18",
+    "/nsb/assets/icons/icon-144x144.png": "82d72079787f7aa2d2e5f6f58ed60f3bc6879a8e",
+    "/nsb/assets/icons/icon-152x152.png": "7c3f816c9cb260956ce706e260ff7fca8e4a6312",
+    "/nsb/assets/icons/icon-16x16.png": "8bfbfe77d93a06678657cab12d00ec4a432711d0",
+    "/nsb/assets/icons/icon-192x192.png": "8046a3961d29cc03d27a9fa5ed7a713b60493304",
+    "/nsb/assets/icons/icon-32x32.png": "dfe983c30e272781ace5881d8eacd2b6c5e99f00",
+    "/nsb/assets/icons/icon-512x512.png": "731f7d77caabf26acd89657594a4d19b2f5ec67b",
+    "/nsb/assets/icons/icon-57x57.png": "de2bef5e9e3eee4e2233100a2e0b441170635509",
+    "/nsb/assets/icons/icon-72x72.png": "d79ee224e563f560662939e4bea57ecfb37131a9",
+    "/nsb/assets/icons/icon-96x96.png": "0747d6d29c848775aeee75331043046e733faed5",
+    "/nsb/assets/icons/mstile-150x150.png": "6a3c4269d8d9892ae5091a1855a427da8cd1d5fe",
+    "/nsb/assets/teams/chevroliere.png": "72d9ff120436cfc6f5763e820cd1b22145deff39",
+    "/nsb/assets/teams/escoublacaise.png": "ac1c1662998a5efca59b00a5cba538f92e3903ab",
+    "/nsb/assets/teams/ibc.png": "7a469f04c4fce273cb8f98a65ec2e29cc02b0bff",
+    "/nsb/assets/teams/lepallet.png": "11f9d09f61de3d5b6f3d61e66df9941ddd1801d7",
+    "/nsb/assets/teams/logne.png": "13f49549d85a463873d8a02ef4c1fcecc739080c",
+    "/nsb/assets/teams/naclt.png": "684679a7b27653f9c0d54fa5fce3a2f5f2ace90a",
+    "/nsb/assets/teams/nbh.png": "27c0e1a88a4f6483c421f314a74045e2d8bf4ce7",
+    "/nsb/assets/teams/nsb.png": "acc5037b484ef8fcdaafc083dd0e65e97dc7dbb8",
+    "/nsb/assets/teams/reze.png": "4ba86ebd6e10e73e354457e15cf124e7cee86b57",
+    "/nsb/assets/teams/tenu.png": "00ffc9b54be61d5ddd3fad8e372b69815aa8ab1d",
+    "/nsb/background.0120269b329bb64ffdce.jpg": "77e11295135e0fc74cac622fbf12543d77f1af89",
+    "/nsb/favicon.ico": "fd1282c98ca81bccd660823c22f37e75b0f31701",
+    "/nsb/index.html": "62b0872acd1ba5faae027b2910d6e71890e364d3",
+    "/nsb/main-es2015.b8fa479daf916086d66f.js": "e582c8c8eb70244d2986f7dea35f46600120aa1d",
+    "/nsb/main-es5.b8fa479daf916086d66f.js": "014bef95f8990ba3cb10ead4a24490ef3ad95db3",
+    "/nsb/manifest.webmanifest": "dac5a71e4634aa0a9232ccba70fc1046e3f75af5",
+    "/nsb/polyfills-es2015.91a91cc5efeb54efc3e5.js": "cad3129c71535baaab25ac06d8429734959b0b3f",
+    "/nsb/polyfills-es5.1e88a8727d91064df0b1.js": "3aea9cf1763b61d6a2768a628573e67ec3e7fd47",
+    "/nsb/runtime-es2015.f2623b59c8ca93d994c9.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "/nsb/runtime-es5.f2623b59c8ca93d994c9.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "/nsb/styles.34a62b43f8cd20dde039.css": "5a59c575b5561cd192b7a6862a43eaba9b0c6a80"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}

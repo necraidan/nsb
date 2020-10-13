@@ -1,0 +1,77 @@
+[
+  {
+    "phase": "aller",
+    "numero": 1,
+    "domicile": {
+      "name": "GROUPE ST VINCENT LE PALLET - 3",
+      "id": "lepallet"
+    },
+    "visiteur": {
+      "name": "NANTES SULLY BASKET - 3",
+      "id": "nsb"
+    },
+    "date": "27/09/2020",
+    "heure": "17:45",
+    "adresse": "SALLE POLYVALENTE Rue des Sports 44330 - Le Pallet"
+  },
+  {
+    "phase": "aller",
+    "numero": 2,
+    "domicile": {
+      "name": "NANTES SULLY BASKET - 3",
+      "id": "nsb"
+    },
+    "visiteur": {
+      "name": "UNION BASKET LOGNE - 2",
+      "id": "logne"
+    },
+    "date": "04/10/2020",
+    "heure": "16:15",
+    "adresse": "GYMNASE SULLY Rue Henri Cochard 44000 - Nantes"
+  },
+  {
+    "phase": "aller",
+    "numero": 3,
+    "domicile": {
+      "name": "NANTES BASKET HERMINE (NBH) - 4",
+      "id": "nbh"
+    },
+    "visiteur": {
+      "name": "NANTES SULLY BASKET - 3",
+      "id": "nsb"
+    },
+    "date": "11/10/2020",
+    "heure": "17:45",
+    "adresse": "3 Rue Sainte-Marthe, 44100 Nantes"
+  },
+  {
+    "phase": "aller",
+    "numero": 4,
+    "domicile": {
+      "name": "NANTES SULLY BASKET - 3",
+      "id": "nsb"
+    },
+    "visiteur": {
+      "name": "EN - CTC POLE WEST NANTAIS - I.B.C. - Indre Basket Club - 3",
+      "id": "ibc"
+    },
+    "date": "18/10/2020",
+    "heure": "16:15",
+    "adresse": "GYMNASE SULLY Rue Henri Cochard 44000 - Nantes"
+  },
+  {
+    "phase": "aller",
+    "numero": 5,
+    "domicile": {
+      "name": "REZE BASKET 44 - 5",
+      "id": "reze"
+    },
+    "visiteur": {
+      "name": "NANTES SULLY BASKET - 3",
+      "id": "nsb"
+    },
+    "date": "08/11/2020",
+    "heure": "17:45",
+    "adresse": "SALLE LUCIEN CAVALIN Rue des Frères Lumière 44400 - Rezé"
+  }
+]
