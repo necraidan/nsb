@@ -1,5 +1,6 @@
 import { HttpClient } from '@angular/common/http';
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { SwUpdate } from '@angular/service-worker';
 import { BehaviorSubject } from 'rxjs';
 import { Match } from './app.model';
 
@@ -8,17 +9,28 @@ import { Match } from './app.model';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
-export class AppComponent {
+export class AppComponent implements OnInit {
   title = 'nsb-match';
 
   matches$ = new BehaviorSubject<Match[]>(null);
 
-  constructor(private http: HttpClient) {
+  constructor(private http: HttpClient, private swUpdate: SwUpdate) {
     this.http.get('./assets/data.json').subscribe((val: Match[]) => {
       console.log(this.selectNextMatch(val));
 
       this.matches$.next(this.selectNextMatch(this.parseDate(val)));
     });
+  }
+
+  ngOnInit(): void {
+    console.log(this);
+    if (this.swUpdate.isEnabled) {
+      this.swUpdate.available.subscribe(() => {
+        if (confirm("Nouvelle version disponible. Voulez-vous recharger l'app ?")) {
+          window.location.reload();
+        }
+      });
+    }
   }
 
   private selectNextMatch(matches: Match[]) {
