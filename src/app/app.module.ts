@@ -7,6 +7,8 @@ import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 import { AppComponent } from "./app.component";
 import { GoogleAddressPipe } from "./match/google-address.pipe";
 import { MatchComponent } from "./match/match.component";
+import { ServiceWorkerModule } from '@angular/service-worker';
+import { environment } from '../environments/environment';
 registerLocaleData(localeFr);
 @NgModule({
   declarations: [AppComponent, MatchComponent, GoogleAddressPipe],
@@ -14,7 +16,8 @@ registerLocaleData(localeFr);
     BrowserModule,
     HttpClientModule,
     CommonModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
   ],
   providers: [
     GoogleAddressPipe,
