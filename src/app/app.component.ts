@@ -36,7 +36,7 @@ export class AppComponent {
     });
   }
 
-  private parseDate(matches: Match[]) {
+  private parseDate(matches: Match[]): Match[] {
     return matches.map((m: Match) => {
       let parseDate = (m.date as string).split('/');
 
